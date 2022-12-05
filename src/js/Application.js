@@ -16,5 +16,21 @@ export default class Application extends EventEmitter {
     });
 
     this.emit(Application.events.READY);
+    this._beat = new Beat()
   }
+
+_create(){
+    
+
+}
+
+}
+
+
+export default class Beat extens EventEmitter{
+    constructor(){
+        super();
+
+    }
+     Beat.events.BIT
 }
